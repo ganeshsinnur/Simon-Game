@@ -1,0 +1,54 @@
+body{
+    background-color: #011F3F;
+}
+.ti{
+    text-align: center;
+    color: #FEF2BF;
+    font-family: 'Press Start 2P', cursive;
+}
+.title{
+    font-size: 4rem;
+}
+.sub{
+    font-size: 2rem;
+}
+.gamebar{
+    margin-top: 5px;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+}
+.btn{
+    margin: 25px;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+.cont{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+.wrong{
+    background-color: red;
+}
